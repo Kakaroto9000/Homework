@@ -1,0 +1,469 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'ru' Physical Memory: 16217 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Homework/Homework/Homeworm
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63996
+Successfully changed project path to: C:/Homework/Homework/Homeworm
+C:/Homework/Homework/Homeworm
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 67.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.10f1 (297d780c91bc)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Homework/Homework/Homeworm/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 970M (ID=0x13d8)
+    Vendor:   
+    VRAM:     3032 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004780 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.181 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.040728 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.860 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.5 MB.
+System memory in use after: 64.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1821.
+Total: 3.842800 ms (FindLiveObjects: 0.218800 ms CreateObjectMapping: 0.065300 ms MarkObjects: 3.457600 ms  DeleteObjects: 0.099200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/WW2 Armed Forces Demo/Models/SOMUA_S35.fbx
+  artifactKey: Guid(21b9d46bd64fa9c41a757d7d2bd68c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Models/SOMUA_S35.fbx using Guid(21b9d46bd64fa9c41a757d7d2bd68c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b57e04e68dc4b6490c763768c6b607') in 0.846042 seconds
+  Import took 0.853223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000972 seconds.
+  path: Assets/WW2 Armed Forces Demo/Materials/Tanks/Panzer_II_F.mat
+  artifactKey: Guid(d3a779cdaf0400a488529288edf376a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Materials/Tanks/Panzer_II_F.mat using Guid(d3a779cdaf0400a488529288edf376a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7d947f29454ee847f752dfb8d258fe') in 1.400419 seconds
+  Import took 1.475331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001100 seconds.
+  path: Assets/WW2 Armed Forces Demo/Materials/Tanks/Matilda_II.mat
+  artifactKey: Guid(0eb8bd350930aea44a2246daa6f45e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Materials/Tanks/Matilda_II.mat using Guid(0eb8bd350930aea44a2246daa6f45e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8792248d4802e3669305ec318303936e') in 0.400826 seconds
+  Import took 0.596708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005572 seconds.
+  path: Assets/WW2 Armed Forces Demo/Materials/Tanks/Chi_Ha.mat
+  artifactKey: Guid(59d60f6360542e149b6cd2a2c273023f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Materials/Tanks/Chi_Ha.mat using Guid(59d60f6360542e149b6cd2a2c273023f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862ea82da054fe60f5b674cee3694a54') in 0.616942 seconds
+  Import took 0.635298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003216 seconds.
+  path: Assets/WW2 Armed Forces Demo/Materials/Track/Track.mat
+  artifactKey: Guid(50ae672eaf06e824d92418a698b1a6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Materials/Track/Track.mat using Guid(50ae672eaf06e824d92418a698b1a6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f104ade490aa4f4e5bdf9fd090fd8f') in 0.073036 seconds
+  Import took 0.086138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001085 seconds.
+  path: Assets/WW2 Armed Forces Demo/Materials/Tanks/Chi_Ha.mat
+  artifactKey: Guid(59d60f6360542e149b6cd2a2c273023f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Materials/Tanks/Chi_Ha.mat using Guid(59d60f6360542e149b6cd2a2c273023f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862ea82da054fe60f5b674cee3694a54') in 0.072510 seconds
+  Import took 0.088557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001996 seconds.
+  path: Assets/WW2 Armed Forces Demo/Models/M5A1_Stuart.fbx
+  artifactKey: Guid(85e177f1c2fb49047a065d605cf0aa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Models/M5A1_Stuart.fbx using Guid(85e177f1c2fb49047a065d605cf0aa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636dab1a1fc8045d584adb0010d1f330') in 0.144312 seconds
+  Import took 0.154780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000900 seconds.
+  path: Assets/WW2 Armed Forces Demo/Models/M4A3(75)_Sherman.fbx
+  artifactKey: Guid(184961720d718b14094db99ebab8f232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Models/M4A3(75)_Sherman.fbx using Guid(184961720d718b14094db99ebab8f232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cff43a1738265fad149af3ce94e7f5') in 0.117273 seconds
+  Import took 0.127096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/WW2 Armed Forces Demo/Models/Chi_Ha.fbx
+  artifactKey: Guid(dd1b4de3b25189940abb94cfe4d913ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Models/Chi_Ha.fbx using Guid(dd1b4de3b25189940abb94cfe4d913ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8863c860a8a9ab0324af3b57e878a0a') in 0.088299 seconds
+  Import took 0.097079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000813 seconds.
+  path: Assets/WW2 Armed Forces Demo/Models/T_34_76.fbx
+  artifactKey: Guid(847074d2b32f2964eb762fc18231b9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Models/T_34_76.fbx using Guid(847074d2b32f2964eb762fc18231b9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c2cebddf1c9c65025fd6023abc211b') in 0.122947 seconds
+  Import took 0.131611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000695 seconds.
+  path: Assets/WW2 Armed Forces Demo/Models/Panzer_VI_E.fbx
+  artifactKey: Guid(8383bdf117bcd2a4da5dd2e573b9de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Models/Panzer_VI_E.fbx using Guid(8383bdf117bcd2a4da5dd2e573b9de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c89e57f8d0ea66e38bd6b0ee86d85f') in 0.150557 seconds
+  Import took 0.165456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000946 seconds.
+  path: Assets/WW2 Armed Forces Demo/Materials/Tanks/SOMUA_S35.mat
+  artifactKey: Guid(15d5eea3ceb7c3d40bfb86e213f55e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Materials/Tanks/SOMUA_S35.mat using Guid(15d5eea3ceb7c3d40bfb86e213f55e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b3c2f783ec63c84916ccc8ec9c4dfa') in 0.092000 seconds
+  Import took 0.109384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001562 seconds.
+  path: Assets/WW2 Armed Forces Demo/Models/KV_2.fbx
+  artifactKey: Guid(4cb42837d55985749928d2afa9672e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Models/KV_2.fbx using Guid(4cb42837d55985749928d2afa9672e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1184065077bf68ba0b22c78afb2f7d8b') in 0.126792 seconds
+  Import took 0.134990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000656 seconds.
+  path: Assets/WW2 Armed Forces Demo/Models/Ha_Go.fbx
+  artifactKey: Guid(3fab61b99db84344c9b4ce0adb48fe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Models/Ha_Go.fbx using Guid(3fab61b99db84344c9b4ce0adb48fe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfe74ffc491d8de2ba2a72d621ade28') in 0.168605 seconds
+  Import took 0.183797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000894 seconds.
+  path: Assets/WW2 Armed Forces Demo/Materials/Tanks/M5A1_Stuart.mat
+  artifactKey: Guid(11f613ad7305ada4cbe4c7fe949d072c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Materials/Tanks/M5A1_Stuart.mat using Guid(11f613ad7305ada4cbe4c7fe949d072c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38f8f3277ce7efb7684ff63d6a0d558') in 0.059464 seconds
+  Import took 0.070562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000972 seconds.
+  path: Assets/WW2 Armed Forces Demo/Models/Hotchkiss_H35.fbx
+  artifactKey: Guid(b6a8e96f709732d49b968642c76bea2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Models/Hotchkiss_H35.fbx using Guid(b6a8e96f709732d49b968642c76bea2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e68543aa6c5dc4e7ddc9e037dc6258') in 0.110551 seconds
+  Import took 0.123006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001089 seconds.
+  path: Assets/WW2 Armed Forces Demo/Materials/Tanks/KV_2.mat
+  artifactKey: Guid(cf6185aec2b5b204fbb479882ddab14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Materials/Tanks/KV_2.mat using Guid(cf6185aec2b5b204fbb479882ddab14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601eb55d9b48db43a0f2aec399e01aa8') in 0.057804 seconds
+  Import took 0.067925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000951 seconds.
+  path: Assets/WW2 Armed Forces Demo/Models/Matilda_II.fbx
+  artifactKey: Guid(e18b4c17ee23ba7428d5166af77f7837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Models/Matilda_II.fbx using Guid(e18b4c17ee23ba7428d5166af77f7837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902a7ff79d1ac10b9ea96f6c3d8fd8c8') in 0.123843 seconds
+  Import took 0.132375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000738 seconds.
+  path: Assets/WW2 Armed Forces Demo/Materials/Tanks/T_34_76.mat
+  artifactKey: Guid(8cff0c78103f65743b0e256637347987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Materials/Tanks/T_34_76.mat using Guid(8cff0c78103f65743b0e256637347987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530ed7f46bc8c2102ced6236b592a4b9') in 0.047128 seconds
+  Import took 0.063177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000798 seconds.
+  path: Assets/WW2 Armed Forces Demo/Materials/Tanks/M4A3(75)_Sherman.mat
+  artifactKey: Guid(cb4bc258acf06484dbdbb4990c3b9939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Materials/Tanks/M4A3(75)_Sherman.mat using Guid(cb4bc258acf06484dbdbb4990c3b9939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b29bb831c3cb86c8e79a92dccecf74e') in 0.054221 seconds
+  Import took 0.069886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001399 seconds.
+  path: Assets/WW2 Armed Forces Demo/Materials/Tanks/Panzer_VI_E.mat
+  artifactKey: Guid(30950fff99c5ccd4f85905dc6f09b870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Materials/Tanks/Panzer_VI_E.mat using Guid(30950fff99c5ccd4f85905dc6f09b870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b96c64ead23bac5b0a9959fa388189') in 0.063304 seconds
+  Import took 0.078376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000746 seconds.
+  path: Assets/WW2 Armed Forces Demo/Models/Cromwell_IV.fbx
+  artifactKey: Guid(0089e4ef716f68b4f9146fc2282177b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Models/Cromwell_IV.fbx using Guid(0089e4ef716f68b4f9146fc2282177b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0cc21ae618ffcbef98e1aa3abf56f0') in 0.184808 seconds
+  Import took 0.200195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002334 seconds.
+  path: Assets/WW2 Armed Forces Demo/Materials/Tanks/Ha_Go.mat
+  artifactKey: Guid(762c14f2643cfb34eaa8bc937c705382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Materials/Tanks/Ha_Go.mat using Guid(762c14f2643cfb34eaa8bc937c705382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bfac4e7752ec124a646bbe1f785507') in 0.047245 seconds
+  Import took 0.058457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000982 seconds.
+  path: Assets/WW2 Armed Forces Demo/Models/Panzer_II_F.fbx
+  artifactKey: Guid(bdd5e5aa77812524bbe7195c08d0d9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Models/Panzer_II_F.fbx using Guid(bdd5e5aa77812524bbe7195c08d0d9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3221ac2f322e0d21bc7e23234c6f32e') in 0.130504 seconds
+  Import took 0.142845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001136 seconds.
+  path: Assets/WW2 Armed Forces Demo/Materials/Tanks/Cromwell_IV.mat
+  artifactKey: Guid(4130e29d3b8edf749927e8eb9c420c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Materials/Tanks/Cromwell_IV.mat using Guid(4130e29d3b8edf749927e8eb9c420c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc40eb81f8c6e94b9078e8c27d787bc7') in 0.063270 seconds
+  Import took 0.077937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000735 seconds.
+  path: Assets/WW2 Armed Forces Demo/Materials/Tanks/Hotchkiss_H35.mat
+  artifactKey: Guid(ed2a834a165ba7c40b6cf79d2a393b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Materials/Tanks/Hotchkiss_H35.mat using Guid(ed2a834a165ba7c40b6cf79d2a393b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d4f4f6f9576428a73cbe9d429966a0') in 0.053736 seconds
+  Import took 0.065051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.907677 seconds.
+  path: Assets/WW2 Armed Forces Demo/Prefabs/Chi_Ha.prefab
+  artifactKey: Guid(6b0b29e0168b61c4ab830ad250f7bf62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Prefabs/Chi_Ha.prefab using Guid(6b0b29e0168b61c4ab830ad250f7bf62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7a710844d80e6a52d39ac06aacf391') in 0.038011 seconds
+  Import took 0.044338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000587 seconds.
+  path: Assets/WW2 Armed Forces Demo/Prefabs/T_34_76.prefab
+  artifactKey: Guid(2ebf979aaaeff1a45966f55f233733e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Prefabs/T_34_76.prefab using Guid(2ebf979aaaeff1a45966f55f233733e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02d9a1b4b6e90ec534896e98bc1c430') in 0.038781 seconds
+  Import took 0.048086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000801 seconds.
+  path: Assets/WW2 Armed Forces Demo/Prefabs/Ha_Go.prefab
+  artifactKey: Guid(5a3ffe14bfec95a44a8670b30c366479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Prefabs/Ha_Go.prefab using Guid(5a3ffe14bfec95a44a8670b30c366479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8ee850dd9940eb5498c97ca7f073dd') in 0.040352 seconds
+  Import took 0.047021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/WW2 Armed Forces Demo/Prefabs/Hotchkiss_H35.prefab
+  artifactKey: Guid(6c27316a4329175499c8b8a161bbf40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Prefabs/Hotchkiss_H35.prefab using Guid(6c27316a4329175499c8b8a161bbf40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4958d9af94580c8e96db78d669872a21') in 0.040562 seconds
+  Import took 0.047433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/WW2 Armed Forces Demo/Prefabs/Cromwell_IV.prefab
+  artifactKey: Guid(5f694739ee4c9494c905f4e9353cfe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Prefabs/Cromwell_IV.prefab using Guid(5f694739ee4c9494c905f4e9353cfe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba2312fea501145412a44bd83d8ecb9') in 0.042428 seconds
+  Import took 0.050163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/WW2 Armed Forces Demo/Prefabs/M4A3(75)_Sherman.prefab
+  artifactKey: Guid(ad899c9168e7f5c4db7f2447350a5249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Prefabs/M4A3(75)_Sherman.prefab using Guid(ad899c9168e7f5c4db7f2447350a5249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714973d5315233663a30566c77976e43') in 0.039432 seconds
+  Import took 0.046454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000805 seconds.
+  path: Assets/WW2 Armed Forces Demo/Prefabs/Matilda_II.prefab
+  artifactKey: Guid(4dc2293ab5c561140872035453dd1c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Prefabs/Matilda_II.prefab using Guid(4dc2293ab5c561140872035453dd1c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9574b8ce16f9c53c73634f3c00ea9e70') in 0.050037 seconds
+  Import took 0.060462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000732 seconds.
+  path: Assets/WW2 Armed Forces Demo/Prefabs/Panzer_II_F.prefab
+  artifactKey: Guid(7c4525d5a46da0b47bbbdfd14c376381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Prefabs/Panzer_II_F.prefab using Guid(7c4525d5a46da0b47bbbdfd14c376381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf21283be1cf21744c1a9fe2022a878') in 0.043924 seconds
+  Import took 0.050689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000686 seconds.
+  path: Assets/WW2 Armed Forces Demo/Prefabs/Panzer_VI_E.prefab
+  artifactKey: Guid(03bd5e3ea2209eb49a5742f90b548d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Prefabs/Panzer_VI_E.prefab using Guid(03bd5e3ea2209eb49a5742f90b548d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902f2a91a36dfd4d9266fc0199ee950b') in 0.042232 seconds
+  Import took 0.050890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000766 seconds.
+  path: Assets/WW2 Armed Forces Demo/Prefabs/M5A1_Stuart.prefab
+  artifactKey: Guid(7aff9190f32585948a8d7838a859933a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Prefabs/M5A1_Stuart.prefab using Guid(7aff9190f32585948a8d7838a859933a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603c57b3ab01d5dc01792a29a8c43440') in 0.037795 seconds
+  Import took 0.044666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Assets/WW2 Armed Forces Demo/Prefabs/SOMUA_S35.prefab
+  artifactKey: Guid(1b29412902091814aaf3887729342d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Prefabs/SOMUA_S35.prefab using Guid(1b29412902091814aaf3887729342d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30706fd35d97b84baaeba9cff96ff8ce') in 0.042007 seconds
+  Import took 0.049848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000988 seconds.
+  path: Assets/WW2 Armed Forces Demo/Prefabs/KV_2.prefab
+  artifactKey: Guid(639da28ec7bc5cc47837261c20a2685c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Prefabs/KV_2.prefab using Guid(639da28ec7bc5cc47837261c20a2685c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6ad5f33cdbcf09dcc98ac97652335b') in 0.042080 seconds
+  Import took 0.049454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.191361 seconds.
+  path: Assets/WW2 Armed Forces Demo/Materials
+  artifactKey: Guid(2281484c8130f7d449ca48d380e82fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Materials using Guid(2281484c8130f7d449ca48d380e82fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fe853ddea160534b892ca4c9d992bf') in 0.007543 seconds
+  Import took 0.013880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.237318 seconds.
+  path: Assets/WW2 Armed Forces Demo/Models
+  artifactKey: Guid(d6de6109622423144a512c3653010505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Models using Guid(d6de6109622423144a512c3653010505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8890aafb4451cedea35a8357786e48a') in 0.005810 seconds
+  Import took 0.012381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.356153 seconds.
+  path: Assets/WW2 Armed Forces Demo/Prefabs
+  artifactKey: Guid(f958f5133ad83c949b41ccac2b09fb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Prefabs using Guid(f958f5133ad83c949b41ccac2b09fb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123b6612f826261d16924a7b1f1d81dd') in 0.005984 seconds
+  Import took 0.011727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.282398 seconds.
+  path: Assets/WW2 Armed Forces Demo/Scripts
+  artifactKey: Guid(5de4d06010b5a8c44a38ba9d48e81738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Scripts using Guid(5de4d06010b5a8c44a38ba9d48e81738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8bf5ab5e47537e85a6350e150eb0534') in 0.006139 seconds
+  Import took 0.012523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.849792 seconds.
+  path: Assets/WW2 Armed Forces Demo/Scripts/Scroll_Track.cs
+  artifactKey: Guid(775fefb26cc024d4a939e180464ded6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Scripts/Scroll_Track.cs using Guid(775fefb26cc024d4a939e180464ded6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a80fcf661608eb803ed71ddfe328a22') in 0.016585 seconds
+  Import took 0.024022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.948808 seconds.
+  path: Assets/WW2 Armed Forces Demo/Textures
+  artifactKey: Guid(44135ac16623b32489fe82b07ee9bf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Textures using Guid(44135ac16623b32489fe82b07ee9bf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc34b7095d2bfa22d0c8e49a3cee219') in 0.005217 seconds
+  Import took 0.012309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.165159 seconds.
+  path: Assets/WW2 Armed Forces Demo/Textures/Chi_Ha
+  artifactKey: Guid(67c0dec62e7510644b5bd719f2b1d62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Textures/Chi_Ha using Guid(67c0dec62e7510644b5bd719f2b1d62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133accb886cbd073c2d8bea9995ad25a') in 0.004651 seconds
+  Import took 0.010349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.116644 seconds.
+  path: Assets/WW2 Armed Forces Demo/Textures/Chi_Ha/Chi_Ha_AlbedoTransparency_1.png
+  artifactKey: Guid(c8a859d1bac90c64c8e8d6b4d89ac5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Textures/Chi_Ha/Chi_Ha_AlbedoTransparency_1.png using Guid(c8a859d1bac90c64c8e8d6b4d89ac5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041d451070c1de7027febc9773da9087') in 0.050679 seconds
+  Import took 0.056975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000767 seconds.
+  path: Assets/WW2 Armed Forces Demo/Textures/Chi_Ha/Chi_Ha_Normal.png
+  artifactKey: Guid(94dbaae2ef5659b4196cd65b8547d0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Textures/Chi_Ha/Chi_Ha_Normal.png using Guid(94dbaae2ef5659b4196cd65b8547d0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b5be775161950ae08172b255eae9ff') in 0.022727 seconds
+  Import took 0.028707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000834 seconds.
+  path: Assets/WW2 Armed Forces Demo/Textures/Chi_Ha/Chi_Ha_Metallic.png
+  artifactKey: Guid(3ba1ba592141c88479cf9940746afd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Textures/Chi_Ha/Chi_Ha_Metallic.png using Guid(3ba1ba592141c88479cf9940746afd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6b444fecfd6a6363ed0b81cb1dbb5d') in 0.014892 seconds
+  Import took 0.021901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000726 seconds.
+  path: Assets/WW2 Armed Forces Demo/Textures/Chi_Ha/Chi_Ha_AO.png
+  artifactKey: Guid(0d927e7e20868bd4ab85bb6e29334438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo/Textures/Chi_Ha/Chi_Ha_AO.png using Guid(0d927e7e20868bd4ab85bb6e29334438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2a475392f9353a1190029fbb0cafd1') in 0.015344 seconds
+  Import took 0.021921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.504445 seconds.
+  path: Assets/WW2 Armed Forces Demo
+  artifactKey: Guid(71e9eed0428e6cf42b4fa5c7c3659c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WW2 Armed Forces Demo using Guid(71e9eed0428e6cf42b4fa5c7c3659c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b0a0ec12990f72d6c8615fafc885d1') in 0.005223 seconds
+  Import took 0.013123 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
