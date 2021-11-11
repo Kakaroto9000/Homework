@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'ru' Physical Memory: 16217 MB
+OS: 'Windows 10 Pro; OS build 19043.1288; Version 2009; 64bit' Language: 'ru' Physical Memory: 16344 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,942 +11,483 @@ C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Homework/Homework/Homeworm
+D:/Документы/GitHub/Homework/Homeworm
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60374
-Successfully changed project path to: C:/Homework/Homework/Homeworm
-C:/Homework/Homework/Homeworm
+55363
+Successfully changed project path to: D:/Документы/GitHub/Homework/Homeworm
+D:/Документы/GitHub/Homework/Homeworm
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 57.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 32.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Homework/Homework/Homeworm/Assets
+[Subsystems] Discovering subsystems at path D:/Документы/GitHub/Homework/Homeworm/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 970M (ID=0x13d8)
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
     Vendor:   
-    VRAM:     3032 MB
-    Driver:   27.21.14.6611
+    VRAM:     8088 MB
+    Driver:   30.0.14.7212
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003398 seconds.
+Registered in 0.002658 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 73.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.866 seconds
+- Completed reload, in  1.418 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008805 seconds.
+Registered in 0.003785 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.899 seconds
+- Completed reload, in  1.477 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.9 MB.
-System memory in use after: 77.0 MB.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 77.2 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1842.
-Total: 2.544800 ms (FindLiveObjects: 0.323500 ms CreateObjectMapping: 0.102000 ms MarkObjects: 2.024900 ms  DeleteObjects: 0.092600 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1840.
+Total: 2.153800 ms (FindLiveObjects: 0.157100 ms CreateObjectMapping: 0.060500 ms MarkObjects: 1.848400 ms  DeleteObjects: 0.086300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(f2cac753ad26f9642816d33824a53288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(f2cac753ad26f9642816d33824a53288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172fd7563f6b540a89baecd747d92ca1') in 0.073197 seconds
-  Import took 0.075685 seconds .
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(dcfc192ea43765d4b97edbf1af3baf55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(dcfc192ea43765d4b97edbf1af3baf55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc4e80a7378e4a6be4d428d19d8549f') in 0.126766 seconds
+  Import took 0.129490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(266f85491e1482543a2836538c1ac48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(266f85491e1482543a2836538c1ac48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30be68b4c337c4b9bf9b5e6da47f653') in 0.021422 seconds
+  Import took 0.023917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/index.jpg
+  artifactKey: Guid(3654d16d07159864399bca45756c375b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/index.jpg using Guid(3654d16d07159864399bca45756c375b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c192eb3fc13b94f0243314b39109de5b') in 0.059858 seconds
+  Import took 0.062055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.392811 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(8d691f765434c48448fe7955b479c59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(8d691f765434c48448fe7955b479c59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79be8b6143c64a93303d55cf754bc8b4') in 0.016223 seconds
+  Import took 0.028164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000699 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(9263ca8399a6176499430dd6a4b01286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(9263ca8399a6176499430dd6a4b01286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2eb504f5e693d5b7814d18420320d3c') in 0.022123 seconds
+  Import took 0.085544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.662080 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(35bae3d6fec1d9f499007994433a102a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(35bae3d6fec1d9f499007994433a102a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f49719602a3dcb0e34e24a7ab636f8') in 0.009577 seconds
+  Import took 0.015904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049284 seconds.
+  path: Assets/Scripts/fffff.asset
+  artifactKey: Guid(b5f307eaebcd8664bbf280aad3185c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/fffff.asset using Guid(b5f307eaebcd8664bbf280aad3185c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67ab3b7b19c88ade8b292b8104c244c') in 0.006597 seconds
+  Import took 0.009263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.189201 seconds.
+  path: Assets/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(e63ee662e7259c941aa05dab63ff5a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(e63ee662e7259c941aa05dab63ff5a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e4c69b2067f26cb6ffe3df406d9581') in 0.156719 seconds
+  Import took 0.159275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Scripts/LoadLevel.cs
+  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LoadLevel.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5a81fbb4989fa8eb7ac1c523b8dcfd') in 0.008310 seconds
+  Import took 0.010779 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010780 seconds.
+Registered in 0.004228 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.605 seconds
+- Completed reload, in  1.153 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.9 MB.
-System memory in use after: 77.0 MB.
+Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 77.2 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1845.
-Total: 2.270800 ms (FindLiveObjects: 0.306700 ms CreateObjectMapping: 0.146700 ms MarkObjects: 1.798300 ms  DeleteObjects: 0.018100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 440.870769 seconds.
-  path: Assets/Scripts/SceneManagers.cs
-  artifactKey: Guid(f2cac753ad26f9642816d33824a53288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManagers.cs using Guid(f2cac753ad26f9642816d33824a53288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7512226bc27340c0d6141e2f3bf4b9') in 0.009347 seconds
-  Import took 0.012713 seconds .
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1846.
+Total: 2.163100 ms (FindLiveObjects: 0.166100 ms CreateObjectMapping: 0.121700 ms MarkObjects: 1.856300 ms  DeleteObjects: 0.017800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007992 seconds.
+Registered in 0.007085 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.332 seconds
+- Completed reload, in  1.179 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.9 MB.
-System memory in use after: 77.0 MB.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 77.2 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1848.
-Total: 2.188800 ms (FindLiveObjects: 0.207100 ms CreateObjectMapping: 0.053400 ms MarkObjects: 1.868900 ms  DeleteObjects: 0.058100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.412109 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001994 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.004979 seconds .
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1849.
+Total: 1.755400 ms (FindLiveObjects: 0.141600 ms CreateObjectMapping: 0.044900 ms MarkObjects: 1.546700 ms  DeleteObjects: 0.020700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.019638 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000430 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003609 seconds .
+  Time since last request: 11.558855 seconds.
+  path: Assets/Scripts/Scriptable Object
+  artifactKey: Guid(37ccfc2961d27404f89ff947484f2e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Scriptable Object using Guid(37ccfc2961d27404f89ff947484f2e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba2fb2f00014f480cb0406018a9a6af') in 0.008660 seconds
+  Import took 0.013149 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.024348 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002264 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.005845 seconds .
+  Time since last request: 0.050628 seconds.
+  path: Assets/Scripts/Scriptable Object/Heavy Tank.asset
+  artifactKey: Guid(3b8e606300490d3418c192fcc0529c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Scriptable Object/Heavy Tank.asset using Guid(3b8e606300490d3418c192fcc0529c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8679684fbe4f9d4b41245aa6f6cd5a') in 0.013860 seconds
+  Import took 0.016024 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.026395 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000991 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.004285 seconds .
+  Time since last request: 0.000146 seconds.
+  path: Assets/Scripts/Scriptable Object/Premium Tank.asset
+  artifactKey: Guid(20f418f67afb9eb4da7ca5406e803686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Scriptable Object/Premium Tank.asset using Guid(20f418f67afb9eb4da7ca5406e803686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867fdab2b37e7ac7b0c477983ccce01e') in 0.011339 seconds
+  Import took 0.013551 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.021578 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001257 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.005159 seconds .
+  Time since last request: 0.000322 seconds.
+  path: Assets/Scripts/Scriptable Object/Light Tank.asset
+  artifactKey: Guid(f50926d2a11e0ca41b2224fb8171c1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Scriptable Object/Light Tank.asset using Guid(f50926d2a11e0ca41b2224fb8171c1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ed26f0540ad9a768f9af7b477ec516') in 0.007810 seconds
+  Import took 0.010273 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.021365 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000409 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003139 seconds .
+  Time since last request: 0.000220 seconds.
+  path: Assets/Scripts/Scriptable Object/Medium Tank.asset
+  artifactKey: Guid(e594a546649e1a941b5bb9b2007e5ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Scriptable Object/Medium Tank.asset using Guid(e594a546649e1a941b5bb9b2007e5ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a596a8d9085a76c8c34615fc03571b4b') in 0.007568 seconds
+  Import took 0.009921 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.022756 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000407 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.002950 seconds .
+  Time since last request: 12.633470 seconds.
+  path: Assets/Scripts/MovementTank.cs
+  artifactKey: Guid(af2759b364661b7428f4293d5e97c366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MovementTank.cs using Guid(af2759b364661b7428f4293d5e97c366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9cfd237fb89a34cc9b7c488e8ddb38') in 0.010355 seconds
+  Import took 0.013155 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.019548 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000478 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021701 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000429 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.004462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022706 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000395 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023023 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001042 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.004026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023986 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000454 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.004703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022122 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000905 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020306 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000550 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.004813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022068 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000457 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019180 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000826 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017665 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000710 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019119 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000961 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.004553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022464 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000686 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.030172 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000410 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019401 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001198 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.004322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020751 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000632 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022068 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000712 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.005371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020620 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000908 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019503 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000574 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.004312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020243 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000742 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.005119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022714 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000860 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023036 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000518 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019842 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000964 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.004310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021556 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001087 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.004861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021326 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000878 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019746 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001429 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.004946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021556 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000891 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021920 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001228 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.025927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027465 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000520 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021800 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001591 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.005328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021085 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000855 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022994 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000427 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020421 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000883 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.004018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022151 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000892 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026806 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000455 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020628 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001019 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.004813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022516 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000896 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.004372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021826 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000863 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.004092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026137 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000902 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003481 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020797 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001062 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.004320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021512 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000820 seconds
-  ERROR: Build asset version error: assets/scripts/scenemanager.cs in SourceAssetDB has modification time of '2021-11-06T16:31:29.5308713Z' while content on disk has modification time of '2021-11-06T16:31:47.2438083Z'
-  Import took 0.003635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.737145 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d2e358792ae84f8fd74573b87ecf88') in 0.006647 seconds
-  Import took 0.011155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009252 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d2e358792ae84f8fd74573b87ecf88') in 0.005337 seconds
-  Import took 0.015944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 376.463396 seconds.
-  path: Assets/Scenes/Main.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf76160cf28a0f18b5569751bb2edb8') in 0.026246 seconds
-  Import took 0.030062 seconds .
+  Time since last request: 0.001536 seconds.
+  path: Assets/Scripts/MovementTank.cs
+  artifactKey: Guid(af2759b364661b7428f4293d5e97c366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MovementTank.cs using Guid(af2759b364661b7428f4293d5e97c366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9cfd237fb89a34cc9b7c488e8ddb38') in 0.003833 seconds
+  Import took 0.009286 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006575 seconds.
+Registered in 0.004440 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.270 seconds
+- Completed reload, in  1.202 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.9 MB.
-System memory in use after: 77.0 MB.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 77.2 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1852.
-Total: 1.970500 ms (FindLiveObjects: 0.138700 ms CreateObjectMapping: 0.041500 ms MarkObjects: 1.772800 ms  DeleteObjects: 0.016400 ms)
+Total: 3.281000 ms (FindLiveObjects: 0.405600 ms CreateObjectMapping: 0.064700 ms MarkObjects: 2.776900 ms  DeleteObjects: 0.031700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 78.627671 seconds.
-  path: Assets/Scripts/SceneManager.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneManager.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4402339a0db1b6cbb78e0e12b720f4') in 0.005224 seconds
-  Import took 0.008190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.495121 seconds.
-  path: Assets/Scripts/LoadLevel.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LoadLevel.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78dc12290a7b069f99eff51339e5f9c') in 0.005357 seconds
-  Import took 0.009850 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006816 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.236 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1855.
-Total: 2.328900 ms (FindLiveObjects: 0.170100 ms CreateObjectMapping: 0.043200 ms MarkObjects: 2.094300 ms  DeleteObjects: 0.020100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.757317 seconds.
+  Time since last request: 8.152156 seconds.
   path: Assets/Scripts/TakeData.cs
   artifactKey: Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TakeData.cs using Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ac5b0cd75535ab66672e9a773bbc5a') in 0.006646 seconds
-  Import took 0.009763 seconds .
+Start importing Assets/Scripts/TakeData.cs using Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e251bd4d1f5f849a877f3f143157af83') in 0.008256 seconds
+  Import took 0.010367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.147674 seconds.
+  path: Assets/Scripts/TankParametrs.cs
+  artifactKey: Guid(f867909fba8fffa458cb5022f65c6b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TankParametrs.cs using Guid(f867909fba8fffa458cb5022f65c6b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a497234f08309e4e121832f6191a2e4') in 0.009546 seconds
+  Import took 0.011812 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010185 seconds.
+Registered in 0.003605 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.460 seconds
+- Completed reload, in  1.064 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.2 MB.
+System memory in use after: 77.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1855.
+Total: 1.925400 ms (FindLiveObjects: 0.179600 ms CreateObjectMapping: 0.057100 ms MarkObjects: 1.639700 ms  DeleteObjects: 0.048100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 532.380127 seconds.
+  path: Assets/Scripts/TakeData.cs
+  artifactKey: Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TakeData.cs using Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2bcb32a6b6dd9a6ec88cbd9c3256a7') in 0.015725 seconds
+  Import took 0.021725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 953.642565 seconds.
+  path: Assets/Scripts/TakeData.cs
+  artifactKey: Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TakeData.cs using Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4507c08183a96cf7b9672551ad429c') in 0.011086 seconds
+  Import took 0.014910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.790162 seconds.
+  path: Assets/Scripts/TakeData.cs
+  artifactKey: Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TakeData.cs using Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97071ad456cc66b77a9074120b56db0e') in 0.012151 seconds
+  Import took 0.019420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027509 seconds.
+  path: Assets/Scripts/TakeData.cs
+  artifactKey: Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TakeData.cs using Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97071ad456cc66b77a9074120b56db0e') in 0.001793 seconds
+  Import took 0.007308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 269.588380 seconds.
+  path: Assets/Scripts/TakeData.cs
+  artifactKey: Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TakeData.cs using Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e3cb56fd6fe9c1da215b2662ef0d39') in 0.001733 seconds
+  Import took 0.003963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.369935 seconds.
+  path: Assets/Scripts/TakeData.cs
+  artifactKey: Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TakeData.cs using Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d5d236f1cccfe0b71dd0d2f7648d65') in 0.004639 seconds
+  Import took 0.010509 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002964 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.172 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.2 MB.
+System memory in use after: 77.3 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1858.
-Total: 2.286400 ms (FindLiveObjects: 0.158000 ms CreateObjectMapping: 0.048600 ms MarkObjects: 2.062300 ms  DeleteObjects: 0.016400 ms)
+Total: 1.821300 ms (FindLiveObjects: 0.147300 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.606700 ms  DeleteObjects: 0.020100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 58.815146 seconds.
-  path: Assets/Scripts/LoadLevel.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LoadLevel.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0784030b6c265dcb1776d4402a70ff3') in 0.006577 seconds
-  Import took 0.008973 seconds .
+  Time since last request: 120.555421 seconds.
+  path: Assets/Scripts/TakeData.cs
+  artifactKey: Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TakeData.cs using Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd91467d1009c4911e2d63998156482e') in 0.003824 seconds
+  Import took 0.006286 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011960 seconds.
+Registered in 0.012745 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.920 seconds
+- Completed reload, in  1.138 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.2 MB.
+System memory in use after: 77.3 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1861.
-Total: 3.232200 ms (FindLiveObjects: 0.199800 ms CreateObjectMapping: 0.061300 ms MarkObjects: 2.941300 ms  DeleteObjects: 0.027900 ms)
+Total: 1.755300 ms (FindLiveObjects: 0.219400 ms CreateObjectMapping: 0.058700 ms MarkObjects: 1.445600 ms  DeleteObjects: 0.030000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 236.976680 seconds.
-  path: Assets/Scenes/Menu.unity
-  artifactKey: Guid(9263ca8399a6176499430dd6a4b01286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu.unity using Guid(9263ca8399a6176499430dd6a4b01286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f84e407bf21acc26881a388829528a5') in 0.033945 seconds
-  Import took 0.039423 seconds .
+  Time since last request: 41.579858 seconds.
+  path: Assets/Scripts/TakeData.cs
+  artifactKey: Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TakeData.cs using Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a66d24fe1ced0617585e36bc4e58ff') in 0.004021 seconds
+  Import took 0.006393 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.016825 seconds.
+Registered in 0.004332 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.131 seconds
+- Completed reload, in  1.127 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.2 MB.
+System memory in use after: 77.3 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1864.
-Total: 3.935300 ms (FindLiveObjects: 0.308200 ms CreateObjectMapping: 0.124400 ms MarkObjects: 3.471500 ms  DeleteObjects: 0.028800 ms)
+Total: 2.131400 ms (FindLiveObjects: 0.172100 ms CreateObjectMapping: 0.073100 ms MarkObjects: 1.839600 ms  DeleteObjects: 0.045600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 252.287481 seconds.
+  path: Assets/Scripts/TakeData.cs
+  artifactKey: Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TakeData.cs using Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9855fb9f52fcf177511b023bcf51b02') in 0.004579 seconds
+  Import took 0.007541 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007305 seconds.
+Registered in 0.003377 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.491 seconds
+- Completed reload, in  1.250 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.2 MB.
+System memory in use after: 77.3 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1867.
-Total: 2.843000 ms (FindLiveObjects: 0.300500 ms CreateObjectMapping: 0.113500 ms MarkObjects: 2.401900 ms  DeleteObjects: 0.025400 ms)
+Total: 2.737700 ms (FindLiveObjects: 0.281700 ms CreateObjectMapping: 0.077800 ms MarkObjects: 2.344000 ms  DeleteObjects: 0.032500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 108.874184 seconds.
-  path: Assets/Scripts/LoadLevel.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LoadLevel.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a54ed3403fdb8a4050a00023915524') in 0.005459 seconds
-  Import took 0.008469 seconds .
+  Time since last request: 280.156925 seconds.
+  path: Assets/Scripts/TakeData.cs
+  artifactKey: Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TakeData.cs using Guid(018aba0b47a4616418dcf72369c187c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0e97a36486d5440c314c638ea7e170') in 0.004056 seconds
+  Import took 0.007520 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010864 seconds.
+Registered in 0.003328 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.057 seconds
+- Completed reload, in  1.188 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.2 MB.
+System memory in use after: 77.3 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1870.
-Total: 2.983800 ms (FindLiveObjects: 0.177100 ms CreateObjectMapping: 0.061200 ms MarkObjects: 2.715200 ms  DeleteObjects: 0.028300 ms)
+Total: 2.307400 ms (FindLiveObjects: 0.188200 ms CreateObjectMapping: 0.043900 ms MarkObjects: 2.052200 ms  DeleteObjects: 0.020700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013231 seconds.
+Registered in 0.003089 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.895 seconds
+- Completed reload, in  1.118 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.2 MB.
+System memory in use after: 77.3 MB.
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1873.
-Total: 3.992300 ms (FindLiveObjects: 0.341600 ms CreateObjectMapping: 0.191100 ms MarkObjects: 3.425400 ms  DeleteObjects: 0.032000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1211.748040 seconds.
-  path: Assets/Scripts/LoadLevel.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LoadLevel.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0f758dff3d22b1de145be509ea0281') in 0.008435 seconds
-  Import took 0.012736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.058360 seconds.
-  path: Assets/Scripts/LoadLevel.cs
-  artifactKey: Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LoadLevel.cs using Guid(41d346098d041a842b8b241ac9af8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0f758dff3d22b1de145be509ea0281') in 0.003764 seconds
-  Import took 0.008039 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011996 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.596 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1876.
-Total: 2.491300 ms (FindLiveObjects: 0.165000 ms CreateObjectMapping: 0.051600 ms MarkObjects: 2.244100 ms  DeleteObjects: 0.028900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012734 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.799 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1879.
-Total: 2.598300 ms (FindLiveObjects: 0.182500 ms CreateObjectMapping: 0.061200 ms MarkObjects: 2.328600 ms  DeleteObjects: 0.024500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 784.585723 seconds.
-  path: Assets/Scenes/New Scene.unity
-  artifactKey: Guid(cf7c61e89403e8a479fb5f5844eb2e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/New Scene.unity using Guid(cf7c61e89403e8a479fb5f5844eb2e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7134c5b33086d5b72110597ea98cb22f') in 0.044207 seconds
-  Import took 0.050663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 335.581264 seconds.
-  path: Assets/Scenes/Main.unity
-  artifactKey: Guid(57cd992b2d7c733418e175b40e8c254a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main.unity using Guid(57cd992b2d7c733418e175b40e8c254a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c991e52bc7aff46fa7105be36e54e82') in 0.004741 seconds
-  Import took 0.008023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002267 seconds.
-  path: Assets/Scenes/Main.unity
-  artifactKey: Guid(57cd992b2d7c733418e175b40e8c254a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main.unity using Guid(57cd992b2d7c733418e175b40e8c254a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c991e52bc7aff46fa7105be36e54e82') in 0.005194 seconds
-  Import took 0.008691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 96.539161 seconds.
-  path: Assets/Scenes/Menu.unity
-  artifactKey: Guid(9263ca8399a6176499430dd6a4b01286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menu.unity using Guid(9263ca8399a6176499430dd6a4b01286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e988dbec3dc5906fe39bf59007487ee1') in 0.006171 seconds
-  Import took 0.010200 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.023705 seconds.
-  path: Assets/Scenes/Main.unity
-  artifactKey: Guid(57cd992b2d7c733418e175b40e8c254a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main.unity using Guid(57cd992b2d7c733418e175b40e8c254a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7893bf662858afe3e4710d63ea47c72') in 0.005187 seconds
-  Import took 0.010499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.840218 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce206829082881e7f21d03fd884e2c8') in 0.005454 seconds
-  Import took 0.008405 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017729 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.496 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1882.
-Total: 6.110400 ms (FindLiveObjects: 0.388500 ms CreateObjectMapping: 0.175300 ms MarkObjects: 5.460200 ms  DeleteObjects: 0.083800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 7.714917 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.098 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1885.
-Total: 4.462000 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.122100 ms MarkObjects: 4.023100 ms  DeleteObjects: 0.034900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 822.250779 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(266f85491e1482543a2836538c1ac48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(266f85491e1482543a2836538c1ac48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfe9f4eb4156e98cd7f0cba8363c30d') in 0.098175 seconds
-  Import took 0.105123 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008575 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.485 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.0 MB.
-System memory in use after: 77.1 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1888.
-Total: 2.379200 ms (FindLiveObjects: 0.354700 ms CreateObjectMapping: 0.104400 ms MarkObjects: 1.896300 ms  DeleteObjects: 0.022200 ms)
+Total: 2.276300 ms (FindLiveObjects: 0.202700 ms CreateObjectMapping: 0.065400 ms MarkObjects: 1.984400 ms  DeleteObjects: 0.022200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

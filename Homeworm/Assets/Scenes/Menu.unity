@@ -326,7 +326,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 018aba0b47a4616418dcf72369c187c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TakenData: {fileID: 11400000, guid: e594a546649e1a941b5bb9b2007e5ee6, type: 2}
+  nameTank: {fileID: 718514877}
+  damageTank: {fileID: 1407657338}
+  tankSpeed: {fileID: 944530128}
+  speedRotahion: {fileID: 538641423}
+  reloadTime: {fileID: 2067709088}
+  cost: {fileID: 2126115789}
 --- !u!114 &113454165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -373,11 +378,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 113454164}
         m_TargetAssemblyTypeName: TakeData, Assembly-CSharp
-        m_MethodName: OnMouseDown
-        m_Mode: 1
+        m_MethodName: OnMoused
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: e594a546649e1a941b5bb9b2007e5ee6,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: TankParametrs, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -624,7 +630,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 018aba0b47a4616418dcf72369c187c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TakenData: {fileID: 0}
+  nameTank: {fileID: 0}
+  damageTank: {fileID: 0}
+  tankSpeed: {fileID: 0}
+  speedRotahion: {fileID: 0}
+  reloadTime: {fileID: 0}
+  cost: {fileID: 0}
 --- !u!1 &718514875
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,7 +695,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -870,7 +881,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 891295161}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 891295163}
+        m_TargetAssemblyTypeName: TakeData, Assembly-CSharp
+        m_MethodName: OnMoused
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: f50926d2a11e0ca41b2224fb8171c1b4,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: TankParametrs, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &891295161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -921,7 +945,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 018aba0b47a4616418dcf72369c187c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TakenData: {fileID: 11400000, guid: f50926d2a11e0ca41b2224fb8171c1b4, type: 2}
+  nameTank: {fileID: 718514877}
+  damageTank: {fileID: 1407657338}
+  tankSpeed: {fileID: 944530128}
+  speedRotahion: {fileID: 538641423}
+  reloadTime: {fileID: 2067709088}
+  cost: {fileID: 2126115789}
 --- !u!1 &944530126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1192,7 +1221,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Improved Tank
+  m_Text: 'Heavy Tank
+
+'
 --- !u!222 &1015891761
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1380,11 +1411,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1212941407}
         m_TargetAssemblyTypeName: TakeData, Assembly-CSharp
-        m_MethodName: OnMouseDown
-        m_Mode: 1
+        m_MethodName: OnMoused
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: 3b8e606300490d3418c192fcc0529c1e,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: TankParametrs, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1440,7 +1472,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 018aba0b47a4616418dcf72369c187c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TakenData: {fileID: 11400000, guid: 3b8e606300490d3418c192fcc0529c1e, type: 2}
+  nameTank: {fileID: 718514877}
+  damageTank: {fileID: 1407657338}
+  tankSpeed: {fileID: 944530128}
+  speedRotahion: {fileID: 538641423}
+  reloadTime: {fileID: 2067709088}
+  cost: {fileID: 2126115789}
 --- !u!1 &1222456863
 GameObject:
   m_ObjectHideFlags: 0
@@ -1836,7 +1873,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 018aba0b47a4616418dcf72369c187c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TakenData: {fileID: 0}
+  nameTank: {fileID: 0}
+  damageTank: {fileID: 0}
+  tankSpeed: {fileID: 0}
+  speedRotahion: {fileID: 0}
+  reloadTime: {fileID: 0}
+  cost: {fileID: 0}
 --- !u!1 &2019958969
 GameObject:
   m_ObjectHideFlags: 0
@@ -1923,11 +1965,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2019958974}
         m_TargetAssemblyTypeName: TakeData, Assembly-CSharp
-        m_MethodName: OnMouseDown
-        m_Mode: 1
+        m_MethodName: OnMoused
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: 20f418f67afb9eb4da7ca5406e803686,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: TankParametrs, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1983,7 +2026,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 018aba0b47a4616418dcf72369c187c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TakenData: {fileID: 11400000, guid: 20f418f67afb9eb4da7ca5406e803686, type: 2}
+  nameTank: {fileID: 718514877}
+  damageTank: {fileID: 1407657338}
+  tankSpeed: {fileID: 944530128}
+  speedRotahion: {fileID: 538641423}
+  reloadTime: {fileID: 2067709088}
+  cost: {fileID: 2126115789}
 --- !u!1 &2067709086
 GameObject:
   m_ObjectHideFlags: 0
